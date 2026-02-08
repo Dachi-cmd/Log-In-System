@@ -7,25 +7,21 @@ body {
     font-family: sans-serif;
 }
 
-/* CENTER CONTAINER */
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 50px 15px;
 }
 
-/* LINKS */
 a {
     display: inline-block;
     text-decoration: none;
 }
 
-/* INPUT RESET */
 input {
     outline: none !important;
 }
 
-/* HEADINGS */
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -33,14 +29,12 @@ h1 {
     font-weight: 700;
 }
 
-/* FORM HOLDER */
 section #formHolder {
     padding: 50px 0;
     display: flex;
     justify-content: center;
 }
 
-/* BRAND PANEL */
 .brand {
     border: 2px solid #fff;
     border-right: none;
@@ -54,7 +48,6 @@ section #formHolder {
     z-index: 2;
 }
 
-/* FIXED PSEUDO SELECTORS */
 .brand:active {
     width: 100%;
 }
@@ -66,12 +59,10 @@ section #formHolder {
     z-index: -1;
 }
 
-/* LOGO */
 .brand a.logo img {
     width: 60px;
 }
 
-/* BRAND HEADING */
 .brand .heading {
     position: absolute;
     bottom: 30px;
@@ -99,7 +90,6 @@ section #formHolder {
     color: #fff;
 }
 
-/* SUCCESS MESSAGE */
 .brand .success-msg {
     width: 100%;
     text-align: center;
@@ -125,7 +115,6 @@ section #formHolder {
     border-radius: 4px;
 }
 
-/* SUCCESS ANIMATION */
 .brand .success-msg p,
 .brand .success-msg a {
     transition: all 0.9s;
@@ -139,13 +128,11 @@ section #formHolder {
     opacity: 1;
 }
 
-/* FORM CONTAINER */
 .form {
     position: relative;
     width: 100%;
 }
 
-/* FORM PANEL (FIXED WIDTH + POSITION) */
 .form .form-piece {
     border-radius: 0 4px 4px 0;
     background: #222c3c;
@@ -157,26 +144,22 @@ section #formHolder {
     transition: all 0.6s cubic-bezier(1, -0.375, 0.285, 0.995);
 }
 
-/* FORM */
 .form form {
     padding: 0 40px;
     margin: 0;
 }
 
-/* FORM HEADING */
 .form form .form-heading h2 {
     margin: 0 0 20px;
     font-size: 30px;
     color: #fff;
 }
 
-/* FORM GROUP */
 .form form .form-group {
     margin-bottom: 25px;
     position: relative;
 }
 
-/* LABEL */
 .form form label {
     font-size: 12px;
     font-weight: 400;
@@ -190,7 +173,6 @@ section #formHolder {
     font-size: 10px;
 }
 
-/* INPUTS */
 .form form input:not([type=submit]) {
     background: none;
     border: none;
@@ -201,12 +183,10 @@ section #formHolder {
     font-size: 15px;
 }
 
-/* PASSWORD FIX */
 .form form input[type=password] {
     color: #fff;
 }
 
-/* ERROR */
 .form form .form-group.hasError input {
     border-color: #f95959;
 }
@@ -220,7 +200,6 @@ section #formHolder {
     display: none;
 }
 
-/* CTA */
 .form form .CTA {
     margin-top: 30px;
 }
